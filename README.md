@@ -28,3 +28,16 @@ const server = Bun.serve({
 });
 
 console.log(`Сервер успешно запущен на порту ${server.port}`);
+
+package.json
+{
+  "name": "bun-hello-world",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.tsx"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
