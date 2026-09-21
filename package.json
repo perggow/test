@@ -1,9 +1,10 @@
 {
-  "name": "bun-hello-world",
+  "name": "zabwino-gifts",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "bun run index.tsx"
+    "start": "bun run index.ts",
+    "dev": "bun --watch run index.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
